@@ -1,0 +1,81 @@
+ @media(max-width:992px) {
+
+     .footer__content {
+         padding: 81px 10px;
+     }
+ }
+
+ @media(max-width:768px) {
+     .main__text {
+         font-size: 17px;
+     }
+
+     .main__img1 {
+         width: 452px;
+         height: 300px;
+     }
+
+     .main__content img {
+         width: 350px;
+         height: 300px;
+     }
+
+     .main__after_text {
+         font-size: 14px;
+     }
+
+     .main__content_apple {
+         flex-direction: column;
+         align-items: center;
+     }
+     .airpods{
+        height: 300px;
+        width: 200px;
+     }
+ }
+
+ @media(max-width:576px) {
+
+     .header__title {
+         font-size: 50px;
+     }
+     .airpods{
+        height: 250px;
+        width: 150px;
+     }
+     .main__after_text {
+        font-size: 9px;
+    }
+    .main__text {
+        font-size: 10px;
+    }
+    .main__content img {
+        width: 250px;
+        height: 200px;
+    }
+ .footer__content{
+    flex-direction: column;
+    gap: 30px;
+ }
+ .nav__items{
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+ }
+ .airpods{
+    height: 250px;
+    width: 150px;
+ }
+ .airpods__content::before {
+    width: 24px;
+ }
+ .airpods__content::after{
+    width: 24px;
+ }
+ .main__after_text {
+    font-size: 6px;
+}
+.main__text {
+    font-size: 8px;
+}
+ }

@@ -1,0 +1,245 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+/* nav */
+.nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: 'MB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.nav__icons {
+    display: flex;
+    gap: 25px;
+}
+
+/* nav */
+
+/* header */
+.header__content {
+    background: url(../img/header__content.png)center center / cover;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+
+.header__title {
+    font-family: 'PR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    font-family: 'MM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #171718;
+    padding: 13px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.header__button img {
+    margin-left: 4px;
+}
+
+/* header */
+
+/* main */
+.main {
+    background: #151515;
+}
+
+.main__content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main__text {
+    font-family: 'MM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.main__after_content {
+    display: flex;
+    align-items: center;
+}
+
+.main__after_text {
+    font-family: 'MB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+}
+
+.airpods__content {
+    display: flex;
+    align-items: center;
+}
+
+
+.airpods__content::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    margin: 0px 11px 0 14px;
+}
+
+.airpods__content::before {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    margin: 0px 14px 0 13px;
+}
+
+.main__content_apple {
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.main__apple_card {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 255px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.main__apple_card_title {
+    font-family: 'MB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.main__apple_card_text {
+    font-family: 'MR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.main__apple_card_button {
+    font-family: 'MB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 7px 57px;
+    background: #151515;
+}
+
+
+/* main */
+
+/* footer */
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 81px 0px;
+}
+
+.footer__items {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__item {
+    font-family: 'MB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footer__cards {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/* footer */
